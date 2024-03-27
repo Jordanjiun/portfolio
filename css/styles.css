@@ -10848,6 +10848,11 @@ html {
   }
 }
 
+.ul-custom {
+  display: inline-block;
+  text-align: left;
+}
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -10927,7 +10932,7 @@ html {
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
