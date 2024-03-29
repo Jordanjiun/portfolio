@@ -7986,6 +7986,10 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.text-justify {
+  text-align: justify !important;
+}
+
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -10851,6 +10855,31 @@ html {
 .ul-custom {
   display: inline-block;
   text-align: left;
+  column-count: 2;
+  column-gap: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+}
+@media (min-width: 768px) {
+  .ul-custom {
+    display: inline-block;
+    text-align: left;
+    column-count: 3;
+    column-gap: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem
+  }
+}
+@media (min-width: 992px) {
+  .ul-custom {
+    display: inline-block;
+    text-align: left;
+    column-count: 4;
+    column-gap: 5rem;
+    padding-left: 3rem
+  }
 }
 
 .divider-custom {
