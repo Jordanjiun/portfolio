@@ -3180,6 +3180,13 @@ textarea.form-control-lg {
   }
 }
 
+.background {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 0.25rem;
+}
+
 .dropup,
 .dropend,
 .dropdown,
@@ -7512,6 +7519,10 @@ textarea.form-control-lg {
   margin: auto !important;
 }
 
+.m-center {
+  margin: 0 auto;
+}
+
 .mx-0 {
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -7656,6 +7667,10 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+}
+
+.mb-45 {
+  margin-bottom: 2rem !important;
 }
 
 .mb-5 {
@@ -10869,7 +10884,7 @@ html {
     column-gap: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 3rem
+    padding-left: 3rem;
   }
 }
 @media (min-width: 992px) {
@@ -10878,7 +10893,16 @@ html {
     text-align: left;
     column-count: 4;
     column-gap: 5rem;
-    padding-left: 3rem
+    padding-left: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ul-custom {
+    display: inline-block;
+    text-align: left;
+    column-count: 4;
+    column-gap: 5rem;
+    padding-left: 7rem;
   }
 }
 
