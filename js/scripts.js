@@ -1,5 +1,9 @@
 window.addEventListener('DOMContentLoaded', event => {
     
+    // Get current year for footer
+    var currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
