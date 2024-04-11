@@ -603,6 +603,11 @@ progress {
   height: auto;
 }
 
+.img-frame {
+  background:#fff;
+  padding:8px;
+  border:1px solid #999999; }
+
 .figure {
   display: inline-block;
 }
@@ -7094,6 +7099,12 @@ textarea.form-control-lg {
   bottom: 100% !important;
 }
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .start-0 {
   left: 0 !important;
 }
@@ -8148,6 +8159,11 @@ textarea.form-control-lg {
 
 .bg-img {
   max-width: 80%;
+  height: auto;
+}
+
+.kimi-img {
+  max-width: 90%;
   height: auto;
 }
 
